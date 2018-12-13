@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-remark-codepen",
+  "name": "@weknow/gatsby-remark-codepen",
   "version": "0.1.0",
-  "description": "Embed Codepen pens in Gatsby using just the url",
+  "description": "Embed Codepen pen in Gatsby markdown",
   "main": "index.js",
   "author": "Jairo Rondon <jrondon@anexusit.com>",
   "license": "MIT",
-  "keywords": ["gatsby", "gatsby-plugin", "remark", "codepen"],
+  "keywords": ["gatsby", "gatsby-plugin", "remark", "markdown", "codepen"],
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "unist-util-visit": "^1.1.3"
@@ -15,14 +15,9 @@
     "cross-env": "^5.0.5",
     "unist-util-map": "^1.0.3"
   },
-  "scripts": {
-    "build": "babel src --out-dir .",
-    "prepublish": "cross-env NODE_ENV=production npm run build",
-    "watch": "babel -w src --out-dir ."
-  },
-  "homepage": "https://github.com/weknow/gatsby-remark-twitch#readme",
+  "homepage": "https://github.com/weknowinc/gatsby-remark-codepen#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/weknow/gatsby-remark-twitch.git"
+    "url": "git+https://github.com/weknowinc/gatsby-remark-codepen.git"
   }
 }
