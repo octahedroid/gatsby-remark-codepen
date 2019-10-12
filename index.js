@@ -19,6 +19,7 @@ module.exports = async ({ markdownAST }, options = { width: 600, height: 300 }) 
         scrolling='no' 
         src='//codepen.io/${penUser}/embed/preview/${penId}/?height=${options.height}&theme-id=${options.theme}&default-tab=${options.defaultTab || 'html,result'}' 
         frameborder='no' 
+        title='codepen embed'
         allowtransparency='true' 
         allowfullscreen='true' 
         style='width: 100%;'></iframe></div>`;
